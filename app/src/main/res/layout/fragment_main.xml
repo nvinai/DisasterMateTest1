@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/home_image"
+        android:layout_width="wrap_content"
+        android:layout_height="539dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="38dp"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/color_diet_food_255501"></ImageView>
+
+    <EditText
+        android:id="@+id/et_enterCalories"
+        style="@style/Base.Widget.MaterialComponents.TextInputEditText"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/home_image"
+        android:layout_alignTop="@+id/home_image"
+        android:layout_alignEnd="@+id/home_image"
+        android:layout_alignBottom="@+id/home_image"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="289dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="197dp"
+        android:hint="Enter Calories"
+        android:inputType="number"
+
+        android:selectAllOnFocus="false"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/enterCalorieButton"
+        android:layout_width="101dp"
+        android:layout_height="38dp"
+        android:layout_below="@id/et_enterCalories"
+        android:layout_alignTop="@+id/home_image"
+        android:layout_alignEnd="@+id/home_image"
+        android:layout_alignBottom="@+id/home_image"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="389dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="112dp"
+        android:text="Set Goal"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/et_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/home_image"
+        android:layout_alignTop="@+id/home_image"
+        android:layout_alignEnd="@+id/home_image"
+        android:layout_alignBottom="@+id/home_image"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="294dp"
+        android:ems="10"
+        android:inputType="time"
+        android:text="Clock"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+</RelativeLayout>

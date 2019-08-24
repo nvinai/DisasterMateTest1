@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_homescreen"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_step_tracker"
+            android:title="Step Tracker" />
+        <item
+            android:id="@+id/nav_cal_tracker"
+            android:title="Calorie Tracker" />
+        <item
+            android:id="@+id/nav_report"
+            android:title="PieChart" />
+        <item
+            android:id="@+id/nav_Bar"
+            android:title="BarChart" />
+        <item
+            android:id="@+id/nav_dietScreen"
+            android:title="My Daily Diet" />
+        <item
+            android:id="@+id/nav_maps"
+            android:title="Places and Parks" />
+
+    </group>
+
+</menu>

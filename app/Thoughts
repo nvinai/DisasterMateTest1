@@ -1,0 +1,10 @@
+we need to figure out on how to use the delele all fn at 11:59am
+
+time picker dialog for steps screen
+- get a button
+- make a class of time picker fragment
+- onCreateDialog
+- then onclick on main activity
+- implement ontime set
+
+

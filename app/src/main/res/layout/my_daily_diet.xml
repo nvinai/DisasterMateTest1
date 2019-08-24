@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/selectedCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Food Category"
+        android:textAlignment="center"/>
+
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/tvfood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Food"
+        android:textAlignment="center"/>
+
+    <Spinner
+        android:id="@+id/foodSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Food"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:id="@+id/fatResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fat:"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/calorieResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Calories:"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/enterUnits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the number of units to consume"
+        android:textAlignment="center"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to Consumption" />
+
+    <TextView
+        android:id="@+id/tv_FoodNotFound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food not found? Search Below"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <EditText
+        android:id="@+id/et_enterNewFood"
+        android:layout_width="421dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter new food to search and add to database"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnPostFoodandConsumption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Now/change to add to diet" />
+
+    <TextView
+        android:id="@+id/tvFoodDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description of Food"
+        android:textAlignment="center"
+        tools:text="test Description" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_NalFat"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:text="Fat Content"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tv_NalCalories"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:text="Calories"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgFoodImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="Food Image here" />
+
+
+</LinearLayout>

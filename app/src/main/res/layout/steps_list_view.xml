@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/steps_item"
+        android:layout_width="186dp"
+        android:layout_height="52dp"
+        android:hint="UnitCode" />
+
+    <TextView
+        android:id="@+id/time_item"
+        android:layout_width="225dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="1dp"
+        android:layout_toRightOf="@+id/steps_item"
+        android:hint="Unit Name" />
+
+    </RelativeLayout>
+
